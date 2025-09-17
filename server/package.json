@@ -1,0 +1,28 @@
+{
+  "name": "nodecart-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "cloudinary": "1.41.1",
+    "cookie-parser": "1.4.6",
+    "cors": "2.8.5",
+    "dotenv": "16.4.5",
+    "express": "4.18.3",
+    "express-validator": "7.2.1",
+    "http-errors": "2.0.0",
+    "jsonwebtoken": "9.0.2",
+    "mongoose": "8.5.1",
+    "morgan": "1.10.0",
+    "stripe": "14.25.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "7.0.3",
+    "nodemon": "3.1.4"
+  }
+}
